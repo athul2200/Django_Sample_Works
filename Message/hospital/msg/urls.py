@@ -1,7 +1,0 @@
-from django.urls import path
-from.import views
-
-urlpatterns=[
-    path('',views.hospital,name='hospital'),
-    path('hospital/',views.hospital,name='hospital'),
-]
